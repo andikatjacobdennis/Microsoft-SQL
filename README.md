@@ -29,8 +29,6 @@ By the end of this learning path, you will be able to:
 
 This repository is organized into logical modules and sub-topics, making it easy to navigate and find specific information.
 
-```txt
-
 Microsoft-SQL/
 ├── .gitignore                      \# Git ignore file for common SQL/OS temporary files
 ├── README.md                       \# This README file
@@ -63,8 +61,6 @@ Microsoft-SQL/
 │   └── query\_optimization.md       \# Techniques for optimizing query performance, execution plans, and statistics
 └── database\_maintenance/
 └── dbcc\_commands.md            \# Essential DBCC commands for database health and management
-
-````
 
 ## 📚 Reference Materials
 
