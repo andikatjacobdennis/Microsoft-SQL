@@ -4,7 +4,7 @@ Welcome to the **Microsoft SQL Server (T-SQL) Learning Path** repository! This r
 
 Whether you're a beginner taking your first steps into SQL Server or an experienced professional looking to refresh your knowledge, this resource aims to provide clear, concise, and practical insights into T-SQL programming.
 
-## 🚀 Module Objective
+## Module Objective
 
 The primary objective of this learning path is to provide a comprehensive and practical guide to T-SQL, enabling learners to:
 
@@ -15,7 +15,7 @@ The primary objective of this learning path is to provide a comprehensive and pr
 * **Optimize Performance:** Understand indexing and query optimization techniques to write efficient T-SQL code.
 * **Perform Database Maintenance:** Learn essential DBCC commands for maintaining SQL Server databases.
 
-## 📖 Learning Outcomes
+## Learning Outcomes
 
 By the end of this learning path, you will be able to:
 
@@ -25,7 +25,7 @@ By the end of this learning path, you will be able to:
 4.  **Understand best practices** for T-SQL development and database maintenance.
 5.  **Confidently work with Microsoft SQL Server** in various development and administrative roles.
 
-## 📁 Repository Structure
+## Repository Structure
 
 This repository is organized into logical modules and sub-topics, making it easy to navigate and find specific information.
 
@@ -83,7 +83,7 @@ Each module and sub-topic will contain its own specific reference materials. How
 * **SQL Performance**: Blog by Grant Fritchey, focused on SQL Server performance tuning ([https://www.sqlperformance.com/](https://www.sqlperformance.com/))
 * **Stack Overflow**: For specific questions and troubleshooting ([https://stackoverflow.com/questions/tagged/sql-server](https://stackoverflow.com/questions/tagged/sql-server))
 
-## 🛠️ Tools
+## Tools
 
 To follow along with the examples and complete the practical tasks, you will need:
 
@@ -91,7 +91,7 @@ To follow along with the examples and complete the practical tasks, you will nee
 * **Azure Data Studio**: A cross-platform database tool for data professionals using the Microsoft family of on-premises and cloud data platforms.
 * **A running SQL Server Instance**: This can be SQL Server Developer Edition (free), SQL Server Express (free, limited features), or a SQL Server instance hosted in Azure (e.g., Azure SQL Database).
 
-## 💡 How to Use This Repository
+## How to Use This Repository
 
 1.  **Clone the Repository**:
     ```bash
@@ -104,7 +104,7 @@ To follow along with the examples and complete the practical tasks, you will nee
 5.  **Self-Assess**: Use the "Assessments" section (MCQs and Short Answer Questions) to test your understanding.
 6.  **Review Practical Tasks**: Complete the "Practical Task" at the end of each module to consolidate your knowledge.
 
-## 🤝 Contribution
+## Contribution
 
 This repository is intended to be a living document. If you find any errors, have suggestions for improvement, or would like to contribute additional content (e.g., more examples, advanced topics, lab solutions), please feel free to:
 
@@ -115,6 +115,6 @@ This repository is intended to be a living document. If you find any errors, hav
 5.  **Push** to your branch (`git push origin feature/your-feature-name`).
 6.  **Open a Pull Request**.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
