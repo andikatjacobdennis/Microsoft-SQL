@@ -4,6 +4,277 @@ Welcome to the **Microsoft SQL Server (T-SQL) Learning Path** repository! This r
 
 Whether you're a beginner taking your first steps into SQL Server or an experienced professional looking to refresh your knowledge, this resource aims to provide clear, concise, and practical insights into T-SQL programming.
 
+```mermaid
+mindmap
+  root((T-SQL Learning))
+    Fundamentals
+      System Data Types
+        Exact Numerics
+          bit
+          INT
+          BIGINT
+          SMALLINT
+          TINYINT
+          DECIMAL
+          FLOAT
+          REAL
+        Character
+          CHAR
+          VARCHAR
+          NCHAR
+          NVARCHAR
+          TEXT
+        Date and Time
+          DATE
+          DATETIME
+          DATETIME2
+          SMALLDATETIME
+          TIME
+        Binary
+          BINARY
+          VARBINARY
+          IMAGE
+        Other
+          BIT
+          UNIQUEIDENTIFIER
+          SQL_VARIANT
+      Operators
+        Arithmetic
+          Plus
+          Minus
+          Multiply
+          Divide
+          Modulo
+        Comparison
+          Equal
+          Not Equal
+          Not Equal Alt
+          Greater Than
+          Less Than
+          Greater or Equal
+          Less or Equal
+        Logical
+          AND
+          OR
+          NOT
+        Bitwise
+          Bitwise AND
+          Bitwise OR
+          Bitwise XOR
+          Bitwise NOT
+      Variables
+        Declaration
+          DECLARE
+        Initialization
+          SET
+          SELECT
+        Scope
+          Local
+          Global via temp tables or context
+      Control Flow
+        IF ELSE
+        CASE
+        WHILE
+        BREAK
+        CONTINUE
+        RETURN
+        GOTO
+      Comments
+        Single-line comment
+        Multi-line comment
+
+    Data Definition Language
+      CREATE
+        Create Database
+        Create Table
+        Create Index
+        Create View
+        Create Procedure
+        Create Function
+        Create Trigger
+      ALTER
+        Alter Database
+        Alter Table
+        Alter Index
+        Alter View
+        Alter Procedure
+        Alter Function
+        Alter Trigger
+      TRUNCATE
+        Truncate Table
+      DROP
+        Drop Database
+        Drop Table
+        Drop Index
+        Drop View
+        Drop Procedure
+        Drop Function
+        Drop Trigger
+
+    Data Manipulation Language
+      SELECT Statement
+        Select Columns
+        From Clause
+        Where Clause
+        Order By
+        Group By
+        Having
+        Distinct
+        Aliases
+      INSERT Statement
+        Insert Values
+        Insert from Select
+        Default Values
+      UPDATE Statement
+        Set Clause
+        Where Clause
+      DELETE Statement
+        From Clause
+        Where Clause
+      MERGE Statement
+        Merge Into
+        Using Clause
+        When Matched
+        When Not Matched
+        Output Clause
+
+    Functions
+      Built-in Functions
+        String Functions
+          LEN
+          LEFT
+          RIGHT
+          CHARINDEX
+          REPLACE
+          LOWER
+          UPPER
+          LTRIM
+          RTRIM
+        Date Functions
+          GETDATE
+          DATEADD
+          DATEDIFF
+          CONVERT
+          FORMAT
+        Mathematical Functions
+          ABS
+          CEILING
+          FLOOR
+          ROUND
+          POWER
+          SQRT
+        Aggregate Functions
+          COUNT
+          SUM
+          AVG
+          MIN
+          MAX
+        System Functions
+          System Variable: IDENT_CURRENT
+          SCOPE_IDENTITY
+          ISNULL
+          COALESCE
+          CAST
+          CONVERT
+      User-defined Functions
+        Scalar Functions
+          Returns single value
+        Table-valued Functions
+          Inline Table-valued
+          Multi-statement Table-valued
+
+    Stored Procedures
+      Create Procedure
+      Execute Procedure
+        EXEC
+        EXECUTE
+        With Parameters
+      Alter Procedure
+      Drop Procedure
+
+    Views
+      Create View
+        With Encryption
+        With Schema Binding
+        With Check Option
+      Types of Views
+        Simple View
+        Complex View
+        Indexed View
+        Partitioned View
+
+    Transactions
+      Begin Transaction
+      Commit Transaction
+      Rollback Transaction
+      Save Transaction
+      ACID Properties
+        Atomicity
+        Consistency
+        Isolation
+        Durability
+
+    Joins
+      Inner Join
+      Left Join
+      Right Join
+      Full Outer Join
+      Cross Join
+      Self Join
+      APPLY Operator
+        Cross Apply
+        Outer Apply
+
+    Subqueries
+      Types
+        Scalar Subquery
+        Table Subquery
+      IN Operator
+      EXISTS Operator
+      Correlated Subquery
+      Subquery in From Clause
+
+    Common Table Expressions
+      With Clause
+      Recursive CTEs
+        Anchor Member
+        Recursive Member
+        Termination Condition
+      Multiple CTEs
+      Use with Insert Update Delete
+
+    Performance Tuning
+      Indexing
+        Clustered Index
+        Non-clustered Index
+        Unique Index
+        Filtered Index
+        Columnstore Index
+        Covering Index
+        Included Columns
+      Query Optimization
+        Execution Plan
+          Actual Plan
+          Estimated Plan
+        Statistics
+          Auto Update Statistics
+        SET Options
+          Set Statistics IO
+          Set Statistics TIME
+
+    Database Maintenance
+      DBCC Commands
+        DBCC CheckDB
+        DBCC CheckTable
+        DBCC ShowContig (deprecated)
+        DBCC ShrinkDatabase
+        DBCC ShrinkFile
+        DBCC FreeProcCache
+        DBCC DropCleanBuffers
+        DBCC CheckIdent
+
+```
+
 ## Module Objective
 
 The primary objective of this learning path is to provide a comprehensive and practical guide to T-SQL, enabling learners to:
