@@ -66,7 +66,7 @@ Microsoft-SQL/
 
 ````
 
-## 📚 Reference Materials
+## Reference Materials
 
 Each module and sub-topic will contain its own specific reference materials. However, here are some general highly recommended resources for T-SQL:
 
