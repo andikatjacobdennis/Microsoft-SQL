@@ -29,7 +29,7 @@ By the end of this learning path, you will be able to:
 
 This repository is organized into logical modules and sub-topics, making it easy to navigate and find specific information.
 
-```txt
+```text
 
 Microsoft-SQL/
 ├── .gitignore                      \# Git ignore file for common SQL/OS temporary files
