@@ -304,37 +304,37 @@ This repository is organized into logical modules and sub-topics, making it easy
 ```text
 
 Microsoft-SQL/
-├── .gitignore                      \# Git ignore file for common SQL/OS temporary files
-├── README.md                       \# This README file
+├── .gitignore                            \# Git ignore file for common SQL/OS temporary files
+├── README.md                             \# This README file
 ├── fundamentals/
-│   ├── 01_data_types.md            \# Explanation of all T-SQL system data types
-│   ├── 02_operators.md             \# Details on arithmetic, comparison, logical, and bitwise operators
-│   ├── 03_variables_and_control_flow.md \# Guide to variables (DECLARE, SET, SELECT) and control flow (IF/ELSE, CASE, WHILE, BREAK, CONTINUE, RETURN, GOTO)
-│   └── 04_comments.md              \# How to use single-line and multi-line comments for documentation
+│   ├── 01_data_types.md                  \# Explanation of all T-SQL system data types
+│   ├── 02_operators.md                   \# Details on arithmetic, comparison, logical, and bitwise operators
+│   ├── 03_variables_and_control_flow.md  \# Guide to variables (DECLARE, SET, SELECT) and control flow (IF/ELSE, CASE, WHILE, BREAK, CONTINUE, RETURN, GOTO)
+│   └── 04_comments.md                    \# How to use single-line and multi-line comments for documentation
 ├── ddl/
-│   └── ddl_statements.md           \# Data Definition Language: CREATE, ALTER, TRUNCATE, DROP for various objects
+│   └── ddl_statements.md                 \# Data Definition Language: CREATE, ALTER, TRUNCATE, DROP for various objects
 ├── dml/
-│   └── dml_statements.md           \# Data Manipulation Language: SELECT, INSERT, UPDATE, DELETE, MERGE
+│   └── dml_statements.md                 \# Data Manipulation Language: SELECT, INSERT, UPDATE, DELETE, MERGE
 ├── functions/
-│   ├── built_in_functions.md       \# Comprehensive guide to SQL Server's built-in functions (string, date, math, aggregate, system)
-│   └── user_defined_functions.md   \# Creating scalar and table-valued user-defined functions
+│   ├── built_in_functions.md             \# Comprehensive guide to SQL Server's built-in functions (string, date, math, aggregate, system)
+│   └── user_defined_functions.md         \# Creating scalar and table-valued user-defined functions
 ├── procedures/
-│   └── stored_procedures.md        \# Creating, executing, altering, and dropping stored procedures
+│   └── stored_procedures.md              \# Creating, executing, altering, and dropping stored procedures
 ├── views/
-│   └── views.md                    \# Working with views, including options like WITH ENCRYPTION, SCHEMABINDING, and CHECK OPTION
+│   └── views.md                          \# Working with views, including options like WITH ENCRYPTION, SCHEMABINDING, and CHECK OPTION
 ├── transactions/
-│   └── transactions.md             \# Understanding BEGIN/COMMIT/ROLLBACK TRANSACTION and ACID properties
+│   └── transactions.md                   \# Understanding BEGIN/COMMIT/ROLLBACK TRANSACTION and ACID properties
 ├── joins/
-│   └── joins.md                    \# Detailed explanation of INNER, LEFT, RIGHT, FULL OUTER, CROSS, SELF joins, and APPLY operator
+│   └── joins.md                          \# Detailed explanation of INNER, LEFT, RIGHT, FULL OUTER, CROSS, SELF joins, and APPLY operator
 ├── subqueries/
-│   └── subqueries.md               \# Types of subqueries, IN/EXISTS operators, correlated subqueries
+│   └── subqueries.md                     \# Types of subqueries, IN/EXISTS operators, correlated subqueries
 ├── cte/
-│   └── common_table_expressions.md \# Guide to Common Table Expressions, including recursive CTEs
+│   └── common_table_expressions.md       \# Guide to Common Table Expressions, including recursive CTEs
 ├── performance_tuning/
-│   ├── indexing.md                 \# Comprehensive overview of various index types and their usage
-│   └── query_optimization.md       \# Techniques for optimizing query performance, execution plans, and statistics
+│   ├── indexing.md                       \# Comprehensive overview of various index types and their usage
+│   └── query_optimization.md             \# Techniques for optimizing query performance, execution plans, and statistics
 └── database_maintenance/
-└── dbcc_commands.md            \# Essential DBCC commands for database health and management
+└── dbcc_commands.md                      \# Essential DBCC commands for database health and management
 
 ````
 
