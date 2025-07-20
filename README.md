@@ -334,7 +334,7 @@ Microsoft-SQL/
 │   ├── indexing.md                       \# Comprehensive overview of various index types and their usage
 │   └── query_optimization.md             \# Techniques for optimizing query performance, execution plans, and statistics
 └── database_maintenance/
-└── dbcc_commands.md                      \# Essential DBCC commands for database health and management
+    └── dbcc_commands.md                  \# Essential DBCC commands for database health and management
 
 ````
 
