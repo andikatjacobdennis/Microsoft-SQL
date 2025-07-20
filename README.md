@@ -17,6 +17,7 @@ mindmap
           TINYINT
           DECIMAL
           FLOAT
+        Approximate Numerics
           REAL
         Character
           CHAR
