@@ -307,19 +307,19 @@ Microsoft-SQL/
 ├── .gitignore                      \# Git ignore file for common SQL/OS temporary files
 ├── README.md                       \# This README file
 ├── fundamentals/
-│   ├── 01\_data\_types.md            \# Explanation of all T-SQL system data types
-│   ├── 02\_operators.md             \# Details on arithmetic, comparison, logical, and bitwise operators
-│   ├── 03\_variables\_and\_control\_flow.md \# Guide to variables (DECLARE, SET, SELECT) and control flow (IF/ELSE, CASE, WHILE, BREAK, CONTINUE, RETURN, GOTO)
-│   └── 04\_comments.md              \# How to use single-line and multi-line comments for documentation
+│   ├── 01_data_types.md            \# Explanation of all T-SQL system data types
+│   ├── 02_operators.md             \# Details on arithmetic, comparison, logical, and bitwise operators
+│   ├── 03_variables_and_control_flow.md \# Guide to variables (DECLARE, SET, SELECT) and control flow (IF/ELSE, CASE, WHILE, BREAK, CONTINUE, RETURN, GOTO)
+│   └── 04_comments.md              \# How to use single-line and multi-line comments for documentation
 ├── ddl/
-│   └── ddl\_statements.md           \# Data Definition Language: CREATE, ALTER, TRUNCATE, DROP for various objects
+│   └── ddl_statements.md           \# Data Definition Language: CREATE, ALTER, TRUNCATE, DROP for various objects
 ├── dml/
-│   └── dml\_statements.md           \# Data Manipulation Language: SELECT, INSERT, UPDATE, DELETE, MERGE
+│   └── dml_statements.md           \# Data Manipulation Language: SELECT, INSERT, UPDATE, DELETE, MERGE
 ├── functions/
-│   ├── built\_in\_functions.md       \# Comprehensive guide to SQL Server's built-in functions (string, date, math, aggregate, system)
-│   └── user\_defined\_functions.md   \# Creating scalar and table-valued user-defined functions
+│   ├── built_in_functions.md       \# Comprehensive guide to SQL Server's built-in functions (string, date, math, aggregate, system)
+│   └── user_defined_functions.md   \# Creating scalar and table-valued user-defined functions
 ├── procedures/
-│   └── stored\_procedures.md        \# Creating, executing, altering, and dropping stored procedures
+│   └── stored_procedures.md        \# Creating, executing, altering, and dropping stored procedures
 ├── views/
 │   └── views.md                    \# Working with views, including options like WITH ENCRYPTION, SCHEMABINDING, and CHECK OPTION
 ├── transactions/
@@ -329,12 +329,12 @@ Microsoft-SQL/
 ├── subqueries/
 │   └── subqueries.md               \# Types of subqueries, IN/EXISTS operators, correlated subqueries
 ├── cte/
-│   └── common\_table\_expressions.md \# Guide to Common Table Expressions, including recursive CTEs
-├── performance\_tuning/
+│   └── common_table_expressions.md \# Guide to Common Table Expressions, including recursive CTEs
+├── performance_tuning/
 │   ├── indexing.md                 \# Comprehensive overview of various index types and their usage
-│   └── query\_optimization.md       \# Techniques for optimizing query performance, execution plans, and statistics
-└── database\_maintenance/
-└── dbcc\_commands.md            \# Essential DBCC commands for database health and management
+│   └── query_optimization.md       \# Techniques for optimizing query performance, execution plans, and statistics
+└── database_maintenance/
+└── dbcc_commands.md            \# Essential DBCC commands for database health and management
 
 ````
 
